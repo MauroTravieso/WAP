@@ -13,6 +13,7 @@ h1 {
   color: navy;
   margin-left: 20px;
   background-color: blue;
+  text-ident: 50px;
 }
 
 p {
@@ -20,4 +21,7 @@ p {
   font-weight: bold;
   font-style: italic;
   font-family: Verdana, Arial, "Courier New";
+  text-align: center;
+  line-height: 30px;
+  word-spacing 20px;
 }
