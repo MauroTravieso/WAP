@@ -78,7 +78,7 @@ div.b {
 
 div.c {
     text-align: right;
-    line-height: 2mm;
+    line-height: 1mm;
     /*font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;*/
     font-family: monospace;
 }
