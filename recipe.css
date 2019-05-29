@@ -21,3 +21,12 @@ h2 {
   text-decoration: underline;
   letter-spacing: 4mm;
 }
+
+p {
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    /*links on the page -> color: #A4A400*/
+
+
+}
