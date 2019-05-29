@@ -39,13 +39,12 @@ p1 {
     align-items: flex-end;
 }
 
-plinks {
+/*plinks {*/
     /*links on the page -> color: #A4A400*/
-    color: #A4A400;
+    /*color: #A4A400;
     font-size: 11pt;
     font-family: Georgia, Garamond, serif;
-    
-}
+}*/
 
 blockquote {
     color: #404040;
