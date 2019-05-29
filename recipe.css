@@ -29,14 +29,21 @@ p {
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, serif;
-    /*links on the page -> color: #A4A400*/
 }
 
 p1 {
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, serif;
+    text-align: right;
+}
+
+plinks {
     /*links on the page -> color: #A4A400*/
+    color: #A4A400;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    
 }
 
 blockquote {
@@ -46,4 +53,8 @@ blockquote {
     background-color: burlywood;
     /*display: inline;*/
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+av {
+    text-align: right;
 }
