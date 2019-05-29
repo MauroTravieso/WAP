@@ -10,8 +10,8 @@ h1 {
   font-size: 22pt;
   font-weight: bold;
   text-decoration: underline;
-  letter-spacing: 5mm;
-  word-spacing: 10mm;
+  letter-spacing: 1mm;
+  word-spacing: 3mm;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
   background-color: #F0F0F0;
   font-size: 18pt;
   text-decoration: underline;
-  letter-spacing: 4mm;
+  letter-spacing: 1mm;
 }
 
 p {
