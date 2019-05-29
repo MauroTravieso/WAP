@@ -77,3 +77,7 @@ div.c {
     /*font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;*/
     font-family: 'Courier New', Courier, monospace;
 }
+
+span {
+    background-color: #F0F0F0;
+}
