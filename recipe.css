@@ -1,3 +1,22 @@
 body {
   background-image: url("silverware.jpg");
 }
+
+h1 {
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 5mm;
+}
+
+h2 {
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-size: 18pt;
+  text-decoration: underline;
+  letter-spacing: 4mm;
+}
