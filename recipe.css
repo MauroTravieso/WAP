@@ -16,6 +16,10 @@ h1 {
 
 }
 
+span {
+    background-color: #F0F0F0;
+}
+
 h2 {
   color: #A4A400;
   background-color: #F0F0F0;
@@ -76,8 +80,4 @@ div.c {
     line-height: 0mm;
     /*font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;*/
     font-family: 'Courier New', Courier, monospace;
-}
-
-span {
-    background-color: #F0F0F0;
 }
