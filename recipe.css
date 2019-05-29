@@ -74,4 +74,6 @@ div.b {
 div.c {
     text-align: right;
     line-height: 0mm;
+    /*font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
 }
