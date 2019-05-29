@@ -31,3 +31,9 @@ p {
     font-family: Georgia, Garamond, serif;
     /*links on the page -> color: #A4A400*/
 }
+
+blockquote {
+    background-color: #F0F0F0;
+    display: inline;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
