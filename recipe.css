@@ -56,6 +56,10 @@ blockquote {
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 }
 
-av {
-    align-items: flex-end;
+div.b {
+    text-align: right
+}
+
+div.c {
+    text-align: right
 }
