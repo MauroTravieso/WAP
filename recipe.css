@@ -34,6 +34,6 @@ p {
 
 blockquote {
     background-color: #F0F0F0;
-    display: inline;
+    /*display: inline;*/
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 }
