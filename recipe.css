@@ -63,6 +63,9 @@ div.a{
     line-height: 0mm;
     font-family: Georgia, Garamond, serif;
 }
+div.a a:link, a:active, a:visited{
+    color: red;
+}
 
 div.b {
     text-align: right;
