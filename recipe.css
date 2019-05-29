@@ -35,7 +35,8 @@ p1 {
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, serif;
-    text-align: right;
+    /*text-align: right;*/
+    align-items: flex-end;
 }
 
 plinks {
@@ -56,5 +57,5 @@ blockquote {
 }
 
 av {
-    text-align: right;
+    align-items: flex-end;
 }
