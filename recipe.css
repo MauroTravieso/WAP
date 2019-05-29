@@ -56,6 +56,13 @@ blockquote {
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 }
 
+div.a{
+    /*links on the page -> color: #A4A400*/
+    color: #A4A400;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
 div.b {
     text-align: right;
 }
