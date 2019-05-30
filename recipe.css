@@ -4,7 +4,7 @@ body {
 
 h1 {
   color: #A4A400;
-  background-color: #F0F0F0;
+  /*background-color: #F0F0F0;*/
   text-align: center;
   font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-size: 22pt;
@@ -13,12 +13,13 @@ h1 {
   letter-spacing: 1mm;
   word-spacing: 3mm;
   /*display: inline-block;*/
-     
+  /*display: inline;*/   
 
 }
 
 span {
     background-color: #F0F0F0;
+    background-position: center;
 }
 
 h2 {
