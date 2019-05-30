@@ -83,3 +83,7 @@ div.c {
     /*font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;*/
     font-family: monospace;
 }
+
+ul {
+    list-style-type: none;
+}
