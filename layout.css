@@ -30,12 +30,20 @@ body {
   margin-right: 10%;
 }
 
+#column {
+  border: 4px solid #C2E9E9;
+  border-radius: 15px;
+  background-color: #E8FBFB;
+  padding: 5px;
+  margin-top: 10px;
+  /*float: left;*/
+  /*clear:right;*/
+}
+
 h1 {
   font-weight: normal;
   font-family: Arial;
   font-size: 28pt;
-  /*float: right;
-  clear: right;*/
 }
 
 h2 {
@@ -76,7 +84,8 @@ img {
   padding: 5px;
   margin-top: 10px;
   overflow: auto;
-  
+  /*float: right;*/
+  /*clear:left;*/
 }
 
 /*#item4, #item6 {
