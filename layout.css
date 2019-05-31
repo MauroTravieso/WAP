@@ -16,7 +16,9 @@ body {
   font-family: "Georgia";
   font-weight: normal; /**/
   color: #009097;
-  background-image: url("Victoria's Journal/background.jpg"); 
+  background-image: url("victoria_background.gif");
+  /*background-image: url("/Victoria's Journal/background.gif");*/ 
+  background-repeat: repeat;
   margin-left: 10%;
   margin-right: 10%;
 }
