@@ -14,7 +14,9 @@ a {
 
 body {
   font-family: "Georgia";
+  font-weight: normal; /**/
   color: #009097;
+  background-image: url("Victoria's journal/background.jpg"); 
 }
 
 h1 {
@@ -25,6 +27,7 @@ h1 {
 
 #item0 {
   border: 5px solid green;
+  background-color: white;
 }
 #item1 {
   border: 5px solid red;
@@ -37,6 +40,9 @@ h1 {
 
 #item3, #item5 {
   border: 5px solid blue;
+  background-color: #E8FBFB;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 /*#item4, #item6 {
