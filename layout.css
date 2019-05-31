@@ -17,6 +17,11 @@ body {
     color: #009097;
 }
 
+h1 {
+  font-weight: normal;
+  font-family: "Century Gothic";
+}
+
 #item0 {
   border: 5px solid green;
 }
