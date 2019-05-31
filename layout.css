@@ -27,19 +27,29 @@ h1 {
   font-weight: normal;
   font-family: "Century Gothic";
   font-size: 2em;
+  /*float: right;
+  clear: right;*/
+}
+
+img {
+  float: right;
 }
 
 #item0 {
   border: 5px solid green;
   background-color: white;
 }
+
 #item1 {
   border: 5px solid red;
   padding: 0.5mm;
+  text-align: right;
 }
 
 #item2 {
   border: 5px solid orange;
+  /*float:right;
+  clear:left;*/
 }
 
 #item3, #item5 {
@@ -47,6 +57,7 @@ h1 {
   background-color: #E8FBFB;
   padding: 5px;
   margin-top: 10px;
+  overflow: auto;
 }
 
 /*#item4, #item6 {
