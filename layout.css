@@ -36,8 +36,11 @@ body {
   background-color: #E8FBFB;
   padding: 5px;
   margin-top: 10px;
-  /*float: left;*/
-  /*clear:right;*/
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  /*float: left;
+  clear: right;*/
 }
 
 h1 {
@@ -61,13 +64,16 @@ img {
 #item0 {
   border: 10px solid white;
   background-color: white;
+  overflow: auto;
+  /*column-count: 2;*/
 }
 
 #item1 {
   /*border: 5px solid red;*/
   padding: 0.5mm;
   text-align: right;
-  background-color: #A8F0F0; 
+  background-color: #A8F0F0;
+  /*float:right;*/ 
 }
 
 #item2 {
@@ -84,8 +90,11 @@ img {
   padding: 5px;
   margin-top: 10px;
   overflow: auto;
-  /*float: right;*/
-  /*clear:left;*/
+  width: 70%;
+  margin-left: 30%;
+  box-sizing: border-box;
+  float: right;
+  clear: left;
 }
 
 /*#item4, #item6 {
