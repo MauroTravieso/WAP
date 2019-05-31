@@ -28,7 +28,6 @@ body {
   background-repeat: repeat;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 100px;
 }
 
 #column {
@@ -40,6 +39,7 @@ body {
   float: left;
   width: 30%;
   box-sizing: border-box;
+  margin-top: 100px;
   /*float: left;
   clear: right;*/
 }
