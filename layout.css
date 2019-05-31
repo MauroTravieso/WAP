@@ -37,11 +37,11 @@ body {
   padding: 5px;
   margin-top: 10px;
   float: left;
-  width: 30%;
+  /*width: 25%;*/
   box-sizing: border-box;
   margin-top: 100px;
-  /*float: left;
-  clear: right;*/
+  float: left;
+  clear: right;
 }
 
 h1 {
