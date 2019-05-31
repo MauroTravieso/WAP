@@ -28,6 +28,11 @@
   display: inline;
 }
 
-span {
+/*span {
   width: 300px;
+}*/
+
+span {
+  border: 5px solid purple;
+  display: inline;
 }
