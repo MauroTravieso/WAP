@@ -21,6 +21,7 @@ function calcTip() {
     console.log(tipElem.value);
     console.log(total);
 
+    //Prints the total value in id="total" field 
     totalElem.innerHTML = '$' + total;
 }
 
