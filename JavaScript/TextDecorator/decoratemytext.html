@@ -20,10 +20,31 @@
 		<h1>Text Decorator</h1>
 		
 		<div>
-			<img src="decorated.gif" alt="very decorated!" />
+			<img src="images/decorated.gif" alt="very decorated!" />
 		</div>
 
-		<!-- Your UI controls go here -->
+        <!-- Your UI controls go here -->
+        <p>
+            <fieldset>
+                <legend>Text</legend>
+                <textarea name="thetext" rows="4" cols="80">
+                                Sample Item 1
+                                Sample Item 2
+                </textarea>
+            </fieldset>
+            <!--<INPUT type="submit" value="Send"><INPUT type="reset">-->
+
+            <fieldset>
+                <legend>Decoration</legend>
+                <input name="Submit" type="submit" value="Bigger Decorations!" />
+                <br/>
+                <input name="color[]" type="checkbox" value="Bling" /> Bling
+                <!--
+                <input name="color[]" type="checkbox" value="red" /> red
+                <input name="color[]" type="checkbox" value="blue" /> blue
+                -->
+            </fieldset>
+        </p>
 		
 	</body>
 </html>
