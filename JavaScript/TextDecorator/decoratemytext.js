@@ -4,13 +4,10 @@ function displayAlert() {
     //document.getElementById("textarea").style.fontSize = "24px";
     var elem = document.getElementById("textarea");
     var theCSSprop = window.getComputedStyle(elem).getPropertyValue("font-size");
-    document.getElementById("textarea").style.fontSize = theCSSprop;
     console.log(theCSSprop);
-    //theCSSprop = parseInt(theCSSprop + 2);
+    theCSSprop = parseInt(theCSSprop)+2;
     console.log(theCSSprop);
-    document.getElementById("textarea").style.fontSize = theCSSprop+2+'px';
-    //document.getElementById("textarea").style.fontSize = parseInt(theCSSprop+2);
-    console.log(theCSSprop);
+    document.getElementById("textarea").style.fontSize = theCSSprop +'px';
 }
 
 document.getElementById('btn').onclick = function() {displayAlert()};
