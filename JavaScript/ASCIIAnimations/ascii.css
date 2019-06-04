@@ -4,3 +4,9 @@ body {
     font-size: 14pt;
     font-weight: bold;
 }
+
+.header {
+    font-size: 32pt;
+    text-align: center;
+    margin: auto;
+}
