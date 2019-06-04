@@ -24,11 +24,12 @@ function initVars() {
     speed = 250;
     currFrame = 0;
     maxFrame = -1;
-    /*data = ANIMATIONS['Exercise'];
-    console.log(data);
-    frames = data*/
 
-    frames = [];/*null;*/
+    data = ANIMATIONS['Exercise'];
+    console.log(data);
+    frames = getFrames(data);
+
+    /*frames = [];*/ /*null;*/
     interval = null;
     data = null;
 }
