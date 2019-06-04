@@ -29,16 +29,17 @@ body {
 .controls {
     display: flex;
     width: 90%;
-    margin-top: 10pt;
+    margin-top: 10pt; /*check*/
     margin-left: auto;/*check*/
     margin-right: auto;/*check*/
     justify-content: center;
     align-items: center;
 }
 
-/*.controls fieldset {
-    
-}*/
+.controls fieldset {
+    display: inline-block;
+    border: 5px solid black;   
+}
 
 .validators {
     display: block;
