@@ -21,7 +21,7 @@ body {
 .animation-area {
     font-family: monospace;
     font-size: 12pt;
-    width: auto;
-    height: auto;
+    width: auto; /**/
+    height: auto; /**/
 
 }
