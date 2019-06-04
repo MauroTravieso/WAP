@@ -1,4 +1,13 @@
 .header {
     text-align: center;
+    margin-top: 10px;
+}
+
+.idProduct {
+    display: block;
+    border: 1px solid red;
+    margin: 0 auto;
+    text-align: center;
+    height: 200px;  
 }
 
