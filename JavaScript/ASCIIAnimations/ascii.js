@@ -34,8 +34,8 @@ function initVars() {
 }
 
 function setText(str) {
-    let txtText = getElementById("txtText");
-    txtText.value = str;
+    let animateText = getElementById("animateText");
+    animateText.value = str;
 }
 
 function getAnimationFrames() {
@@ -65,12 +65,12 @@ function setControlStatus(isInProgress) {
     disableControlById("stop-button", !isInProgress);
     disableControlById("start-button", isInProgress);
     disableControlById("animation",isInProgress);
-    disableControlById("txtText",isInProgress);
+    disableControlById("animateText",isInProgress);
 }
 
 function onclickStart() {
-    let txtText = getElementById("txtText");
-    let s = txtText.value;
+    let animateText = getElementById("animateText");
+    let s = animateText.value;
     console.log(s);
 
     getAnimationFrames();
@@ -96,8 +96,8 @@ function onChangeAnimation() {
 function onChangeSize() {
     let index = this.selectedIndex;
     let choice = this.options[index].value;
-    let txtText = getElementById("txtText");
-    txtText.style.fontSize = choice + "pt";
+    let animateText = getElementById("animateText");
+    animateText.style.fontSize = choice + "pt";
 }
 
 function setSpeed(s) {
