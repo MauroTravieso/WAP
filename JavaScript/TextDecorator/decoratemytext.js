@@ -1,4 +1,7 @@
 "use strict";
+var pause = 1;
+var count = 0;
+
 function displayAlert() {
     //alert("Hello, world!");
     //document.getElementById("textarea").style.fontSize = "24px";
@@ -11,10 +14,43 @@ function displayAlert() {
 
     //timer
     //setTimeout(displayAlert,500);
-    setInterval(displayAlert,500);
+    //setInterval(displayAlert, 500);
+    
 }
 
-document.getElementById('btn').onclick = function() {displayAlert()};
+//Timer
+/*function startStop() {
+    if(count%2==0) {
+        pause=1;
+
+    } else 
+        pause = 0;    
+}*/
+
+function counterTime() {
+    //alert("here");
+    console.log(pause);
+    console.log(count);
+    
+    if (pause == 0) {
+    //if (count%2 == 0) {
+        clearInterval(setInterval(displayAlert, 1500));
+        pause = 1;
+        return;
+    } 
+
+    if (pause == 1) {
+    //if (count%2 != 0) {
+        setInterval(displayAlert, 1500);
+        pause = 0;
+        return;
+    }
+    count = count + 1;
+    //console.log(count);
+}
+
+//document.getElementById('btn').onclick = function() {displayAlert()};
+document.getElementById('btn').onclick = function () { counterTime() };
 
 
 //check
