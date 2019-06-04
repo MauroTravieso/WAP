@@ -8,10 +8,16 @@ function displayAlert() {
     theCSSprop = parseInt(theCSSprop)+2;
     console.log(theCSSprop);
     document.getElementById("textarea").style.fontSize = theCSSprop +'px';
+
+    //timer
+    //setTimeout(displayAlert,500);
+    setInterval(displayAlert,500);
 }
 
 document.getElementById('btn').onclick = function() {displayAlert()};
 
+
+//check
 function onChange() {
     //alert("Hello, world!");
     document.getElementById("textarea").style.fontWeight = "bold";
@@ -20,4 +26,5 @@ function onChange() {
 }
 
 document.getElementById('color').onclick = function() {onChange()};
+
 
