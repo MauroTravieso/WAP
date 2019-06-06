@@ -194,6 +194,17 @@ body {
     text-align: left;
 }
 
+.financial-info .fi-left {
+    float: left;
+    width: 49%;
+}
+
+.financial-info .fi-right {
+    float: right;
+    width: 49%;
+}
+
+
 
 
 
