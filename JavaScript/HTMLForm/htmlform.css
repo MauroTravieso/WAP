@@ -7,23 +7,30 @@ body {
     background-color: #eeeeee;
 }
 
+.division-line {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    margin: 20px;
+}
+
 .header {
     text-align: center;
     padding-top: 10px;
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     background-color: white;
 }
 
 .idProduct {
     background-color: white;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .idProduct-inside {
     margin: 0 auto;
     max-width: 960px;
     /*display: block;*/
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     /*text-align: center;*/
     height: 200px; 
     background-color: white; 
@@ -70,8 +77,8 @@ body {
 .text-content {
     margin: 0 auto;
     max-width: 960px;
-    border: 1px solid green;
-    height: 900px; 
+    /*border: 1px solid green;*/
+    height: 1900px; 
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +92,7 @@ body {
     margin: 0 auto;
     max-width: 912px;
     /*display: block;*/
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     /*text-align: center;*/
     height: 200px;
 }
@@ -135,6 +142,7 @@ body {
     margin: 0 auto;
     max-width: 912px;
     text-align: left;
+    height: 100px;
 }
 
 .contact-info .ci-left {
@@ -163,6 +171,30 @@ body {
     float: right;
     width: 49%;
 }
+
+/*Authorized User*/
+.authorized-info {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+    /*height: 100px;*/
+}
+
+/*Employment Information*/
+.employment-info {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+}
+
+/*Finacial Information*/
+.financial-info {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+}
+
+
 
 
 
