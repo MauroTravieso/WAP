@@ -41,7 +41,6 @@ First finish html and validation part and start with styling.
                         
                     </ul>
                 </div>
-
             </div>     
         </div>
         
@@ -65,7 +64,8 @@ First finish html and validation part and start with styling.
                 <textarea name="" id="" cols="125" rows="15"></textarea>
             </div>
             
-            <div><hr /></div>
+            <!--Division line-->
+            <div class="division-line"><hr /></div>
             
             <div>
                 <h2>
@@ -106,9 +106,8 @@ First finish html and validation part and start with styling.
                 </div>
             </div>
 
-            <div>
-                <hr />
-            </div>
+            <!--Division line-->
+            <div class="division-line"><hr /></div>
             
             <div>
                 <h2>
@@ -119,7 +118,7 @@ First finish html and validation part and start with styling.
                         <h5>Home Address (No P.O. Boxes)</h5>
                         <input type="text" name="home_address" /> 
                     </div>
-                    <div class="ci-right"></div>
+                    <div class="ci-right">
                         <h5>Suite/Apt. # (if Applicable)</h5>
                         <input type="text" name="last_name" />
                     </div>
@@ -136,6 +135,77 @@ First finish html and validation part and start with styling.
                     </div>
                 </div>
             </div>
+
+            <!--Authorized User-->
+            <div class="division-line"><hr /></div>
+
+            <div>
+                <h2>
+                    <span>Authorized User</span>
+                </h2>
+
+                <div class="authorized-info">
+                    <input type="checkbox" name="authorized_user"/> <span>Yes!</span> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it. 
+                </div>
+            </div>
+
+            <!--Employment Information-->
+            <div class="division-line">
+                <hr />
+            </div>
+
+            <div>
+                <h2>
+                    <span>Employment Information</span>
+                </h2>
+            
+                <div class="employment-info">
+                    <h5>Employment Status</h5>
+                    <select name="employment_info">
+                        <option selected>Select status</option>
+                        <option>Employed </option>
+                        <option>Self-Employed</option>
+                        <option>Retired</option>
+                        <option>Student</option>
+                        <option>Unemployed</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Financial Information-->
+            <div class="division-line">
+                <hr />
+            </div>
+
+            <div>
+                <h2>
+                    <span>Financial Information</span>
+                </h2>
+                <div class="financial-info">
+                    <div class="financial-info-radiobutton">
+                        <h5>Do you: (Optional)</h5>    
+                        <input type="radio" name="fi" value="own"/>Own
+                        <input type="radio" name="fi" value="rent" />Rent
+                        <input type="radio" name="fi" value="live_with_parents" />Live with parents
+                        <input type="radio" name="fi" value="other" />Other
+                    </div>
+
+                    <div class="fi-left">
+                        <h5>Home Address (No P.O. Boxes)</h5>
+                        <input type="text" name="home_address" />
+                    </div>
+                    <div class="fi-right">
+                        <h5>Suite/Apt. # (if Applicable)</h5>
+                        <input type="text" name="last_name" />
+                    </div>
+            
+                </div>
+            </div>
+
+            
+            
+
+
 
         </div>
                 <!--
