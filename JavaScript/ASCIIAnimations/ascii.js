@@ -31,7 +31,7 @@ function initVars() {
 
     /*frames = [];*/ /*null;*/
     interval = null;
-    data = null;
+    /*data = null;*/
 }
 
 function setText(str) {
