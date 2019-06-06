@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #eeeeee;
 }
 
 .header {
@@ -13,7 +13,6 @@ body {
     /*border:1px solid blue;*/
     background-color: white;
 }
-
 
 .idProduct {
     display: block;
