@@ -3,7 +3,7 @@
     <head></head>
     <body>
         <script>
-            var x=1;
+            /*var x=1;
             var y=2;
             
             function foo(x, y) {
@@ -17,7 +17,29 @@
             }
 
             var result = bar(foo(5, 5));
-            alert(result);
+            alert(result);*/
+
+            var person = {
+                first: 'Default',
+                last: 'Default',
+                greet: function() {
+                    return 'Hi,' + this.fisrt;
+                }
+            }
+
+            var jim = Object.create(person);
+            console.log(jim['first']);
+            console.log(jim.hasOwnProperty('fisrt'));
+            jim.first = 'Jim';
+            console.log(jim.hasOwnProperty('first'));
+            
+            console.log(jim);
+            jim.greet();
+            alert(jim.greet());
+            const res = jim.greet();
+            alert(res);
+
+                
         </script>
     </body>
 </html>
