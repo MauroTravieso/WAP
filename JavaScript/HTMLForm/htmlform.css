@@ -219,11 +219,56 @@ body {
 }
 
 .footer {
-    background-color: gray;
+    background-color: lightgrey;
     /*border: 1px solid red;*/
     width: 0 auto;
     height: 250px;
 }
+
+.footer .footer-top {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+    height: 50px;
+}
+
+.footer .footer-top .footer-left{
+    float: left;
+    width: 80%;    
+}
+
+.footer-left ul li {
+    display: inline;
+}
+
+.footer-left ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+.footer .footer-top .footer-right{
+    float: right;
+    width: 20%;
+    text-align: center;    
+}
+
+.footer .logo-footer {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+    height: 50px;
+}
+
+.footer .copyright {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+    text-align: justify;
+    height: 50px;
+}
+
+
 
 
 
