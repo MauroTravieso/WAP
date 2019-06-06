@@ -71,9 +71,99 @@ body {
     margin: 0 auto;
     max-width: 960px;
     border: 1px solid green;
-    height: 200px; 
+    height: 900px; 
     background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/*.text-content .title span {
+    
+}*/
+
+.personal-info {
+    margin: 0 auto;
+    max-width: 912px;
+    /*display: block;*/
+    border: 1px solid red;
+    /*text-align: center;*/
+    height: 200px;
+}
+
+.personal-info .pi-left {
+     float: left;
+    /*border: 1px solid blue;*/
+    width: 69%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.personal-info .pi-right {
+    float: right;
+    /*border: 1px solid red;*/
+    width: 30%;
+}
+
+.pi-left .pi-left-left {
+    float: left;
+    width: 49%;
+}
+
+.pi-left .pi-left-right {
+    float: right;
+    width: 49%;
+}
+
+.pi-footer {
+    margin: 0 auto;
+    text-align: left;
+    clear: both;
+}
+
+.pi-footer .pi-footer-left {
+    float: left;
+    width: 49%;
+}
+.pi-footer .pi-footer-right {
+    float: right;
+    width: 49%;
+}
+
+
+/*Contact Information*/
+.contact-info {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+}
+
+.contact-info .ci-left {
+    float: left;
+    width: 69%;
+}
+
+.contact-info .ci-left {
+    float: right;
+    width: 30%;
+}
+
+.ci-footer {
+    margin: 0 auto;
+    max-width: 912px;
+    text-align: left;
+}
+
+.ci-footer .ci-left{
+    float: left;
+    width: 49%;
+    
+}
+
+.ci-footer .ci-right {
+    float: right;
+    width: 49%;
+}
+
 
 
 
