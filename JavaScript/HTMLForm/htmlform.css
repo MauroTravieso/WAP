@@ -10,15 +10,24 @@ body {
 .header {
     text-align: center;
     padding-top: 10px;
-    /*border:1px solid blue;*/
+    border:1px solid blue;
     background-color: white;
 }
 
 .idProduct {
-    display: block;
+    background-color: white;
     border: 1px solid red;
-    margin: 0 auto;
-    text-align: center;
-    height: 200px;  
 }
+
+.idProduct-inside {
+    margin: 0 auto;
+    max-width: 1200px;
+    /*display: block;*/
+    border: 1px solid red;
+    /*text-align: center;*/
+    height: 200px; 
+    background-color: white;  
+}
+
+
 
