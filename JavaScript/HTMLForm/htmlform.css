@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     max-width: 960px;
     /*border: 1px solid green;*/
-    height: 1900px; 
+    height: 1300px; 
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -192,6 +192,7 @@ body {
     margin: 0 auto;
     max-width: 912px;
     text-align: left;
+    height: 150px;
 }
 
 .financial-info .fi-left {
@@ -203,6 +204,20 @@ body {
     float: right;
     width: 49%;
 }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
 
 
