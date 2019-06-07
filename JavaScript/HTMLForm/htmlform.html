@@ -78,7 +78,7 @@ First finish html and validation part and start with styling.
                             <input type="text" name="first_name"/>
 
                             <h5>Date of Birth</h5>
-                            <input type="text" name="date_of_birth" />
+                            <input type="text" name="date_of_birth" value="MM/DD/YYYY"/>
                         </div>
                         <div class="pi-left-right">
                             <h5>Last name</h5>
@@ -96,17 +96,34 @@ First finish html and validation part and start with styling.
                     <div class="pi-footer">
                         <div class="pi-footer-left">
                             <h5>Social Insurance Number <img/> (Optional)</h5>
-                            <input type="text" name="social_insurance_number" />
+                            <input type="text" name="social_insurance_number" value="___-___-___"/>
                         </div>
                         <div class="pi-footer-right">
                             <h5>How did you learn about this card? (Optional)</h5>
-                            <input type="text" name="how_did_you_learn_about_this_card" />
+                            <!-- <input type="text" name="how_did_you_learn_about_this_card" /> -->
+                            <select name="how_did_you_learned">
+                                <option selected>Select source</option>
+                                <option>Outdoor or Transit Ad</option>
+                                <option>Capital One Sponsored Event</option>
+                                <option>Search Engine</option>
+                                <option>Magazine</option>
+                                <option>Email with CapitalOne Content</option>
+                                <option>Television</option>
+                                <option>Newspaper</option>
+                                <option>Online Banner Ad or Video</option>
+                                <option>Credit Cards Comparison Site</option>
+                                <option>Family or Firend</option>
+                                <option>Facebook Ad or Video</option>
+                                <option>Mail Offer</option>
+                                <option>Other</option>
+                            </select>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!--Division line-->
+            <!--Contact Information-->
             <div class="division-line"><hr /></div>
             
             <div>
@@ -130,7 +147,7 @@ First finish html and validation part and start with styling.
                         </div>
                         <div class="ci-right">
                             <h5>Primary Phone Number</h5>
-                            <input type="text" name="primary_phone_number" />
+                            <input type="text" name="primary_phone_number" value="(___) ___-____"/>
                         </div>
                     </div>
                 </div>
@@ -145,7 +162,7 @@ First finish html and validation part and start with styling.
                 </h2>
 
                 <div class="authorized-info">
-                    <input type="checkbox" name="authorized_user"/> <span>Yes!</span> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it. 
+                    <label><input type="checkbox" name="authorized_user"/> <span>Yes!</span> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it. </label>
                 </div>
             </div>
 
@@ -184,19 +201,19 @@ First finish html and validation part and start with styling.
                 <div class="financial-info">
                     <div class="financial-info-radiobutton">
                         <h5>Do you: (Optional)</h5>    
-                        <input type="radio" name="fi" value="own"/>Own
-                        <input type="radio" name="fi" value="rent" />Rent
-                        <input type="radio" name="fi" value="live_with_parents" />Live with parents
-                        <input type="radio" name="fi" value="other" />Other
+                        <label><input type="radio" name="fi" value="own"/>Own</label>
+                        <label><input type="radio" name="fi" value="rent" />Rent</label>
+                        <label><input type="radio" name="fi" value="live_with_parents" />Live with parents</label>
+                        <label><input type="radio" name="fi" value="other" />Other</label>
                     </div>
 
                     <div class="fi-left">
                         <h5>Your Annual Income (Before Taxes)</h5>
-                        <input type="text" name="annual_income" />
+                        <input type="text" name="annual_income" value="$"/>
                         <br/>
                         <h5>Do you have a mortgage? (Optional)</h5>
-                        <input type="radio" name="fil" value="yes" />Yes
-                        <input type="radio" name="fil" value="no" />No
+                        <label><input type="radio" name="fil" value="yes" />Yes</label>
+                        <label><input type="radio" name="fil" value="no" />No</label>
                         <br />
                         <h5>Do you have any bank accounts?</h5>
                         <select name="bank_info">
@@ -210,12 +227,12 @@ First finish html and validation part and start with styling.
                     </div>
                     <div class="fi-right">
                         <h5>Other Household Income (Before Taxes)</h5>
-                        <input type="text" name="hosehold_income" />
+                        <input type="text" name="hosehold_income" value="$"/>
                         <h5>Monthly Rent/Mortgage (Optional)</h5>
-                        <input type="text" name="hosehold_income" />
+                        <input type="text" name="hosehold_income" value="$"/>
                         <h5>Would you like to use your card for cash advances? (Optional)</h5>
-                        <input type="radio" name="fril" value="yes" />Yes
-                        <input type="radio" name="fril" value="no" />No
+                        <label><input type="radio" name="fril" value="yes" />Yes</label>
+                        <label><input type="radio" name="fril" value="no" />No</label>
                     </div>
             
                 </div>
