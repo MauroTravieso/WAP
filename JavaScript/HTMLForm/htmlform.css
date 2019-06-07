@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     max-width: 960px;
     /*border: 1px solid green;*/
-    height: 1300px; 
+    height: 1600px; 
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,13 +88,14 @@ body {
     
 }*/
 
+/*Personal Information*/
 .personal-info {
     margin: 0 auto;
     max-width: 912px;
     /*display: block;*/
     /*border: 1px solid red;*/
     /*text-align: center;*/
-    height: 200px;
+    height: 230px;
 }
 
 .personal-info .pi-left {
@@ -142,7 +143,7 @@ body {
     margin: 0 auto;
     max-width: 912px;
     text-align: left;
-    height: 100px;
+    height: 150px;
 }
 
 .contact-info .ci-left {
@@ -150,7 +151,7 @@ body {
     width: 69%;
 }
 
-.contact-info .ci-left {
+.contact-info .ci-right {
     float: right;
     width: 30%;
 }
@@ -192,7 +193,7 @@ body {
     margin: 0 auto;
     max-width: 912px;
     text-align: left;
-    height: 150px;
+    height: 250px;
 }
 
 .financial-info .fi-left {
@@ -278,6 +279,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .pi-footer input[type=text], select {
@@ -288,8 +290,64 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
+/*Contact Information*/
+.contact-info input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*Employment Information*/
+.employment-info select {
+  width: 49%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*Financial Information*/
+.financial-info input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.financial-info input[type=radio] {
+  /*width: 100%;*/
+  padding: 15px 30px;
+  margin: 10px 0;
+  display: inline-block;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 4px;
+  box-sizing: border-box;*/
+  font-size: 16px;
+
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+/*Mouse hover*/
+label:hover {
+    cursor:grab/pointer;
+}
 
 
 
