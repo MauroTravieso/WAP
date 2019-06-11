@@ -13,6 +13,7 @@
     max-width: 960px;
     height: 400px;
     background-color: lightblue;
+    padding: 10px;
     /*border: 1px dashed red;*/
 }
 
@@ -29,4 +30,11 @@
 
 .contact-info a {
     text-decoration: none;
+}
+
+.validators {
+    float: left;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
 }
