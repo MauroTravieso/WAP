@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.form-text {
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 400px;
+    background-color: lightblue;
+    /*border: 1px dashed red;*/
+}
+
+.contact-info {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    border: 1px dashed green;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.contact-info a {
+    text-decoration: none;
+}
