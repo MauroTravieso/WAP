@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>myservlet</servlet-name>
+        <!--<servlet-class>HelloServlet</servlet-class>-->
+        <servlet-class>Authentication</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myservlet</servlet-name>
+        <!--<url-pattern>/hello</url-pattern>-->
+        <url-pattern>/authenticate</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>myFilter</filter-name>
+        <filter-class>AuthenticationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>myFilter</filter-name>
+        <url-pattern>/authenticate</url-pattern>
+        <url-pattern>/authenticate/*</url-pattern>
+        <servlet-name>myservlet</servlet-name>
+
+
+    </filter-mapping>
+
+
+
+</web-app>
