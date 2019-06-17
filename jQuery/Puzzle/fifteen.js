@@ -14,7 +14,7 @@ var puzze = (function () {
     //0: Move down, 1: Move left, 2: Move up, 3: Move right
     const MOVE = [{ i: 0, j: 1 }, { i: -1, j: 0 }, { i: 0, j: -1 }, { i: 1, j: 0 }];
 
-    let bgImage = 'url("../../images/background.jpg")';
+    let bgImage = 'url("/images/background.jpg")';
     let arrMoveStatus = [];
     let msgWin = "Yeah! you win!";
 
@@ -251,5 +251,5 @@ var puzze = (function () {
         $("#btnStopAutoPlay").attr('disabled', !disabled);
 
     };
-    
+
 })();
