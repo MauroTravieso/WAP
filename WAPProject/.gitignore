@@ -1,0 +1,6 @@
+.idea
+.git
+target
+classes
+out
+web/WEB-INF/lib/*.jar
